@@ -12,7 +12,7 @@ nav {
     margin: 0;
 }
 nav ul {
-    margin: 0;
+    margin: 10px 0 0 0;
     padding: 0;
     list-style-type: none;
 }
@@ -24,7 +24,7 @@ nav button {
     background-color: #0077C5;
     color: white;
     width: 100px;
-    margin: 0 25px 0 5px;
+    margin: 10px 30px 0 5px;
     border-radius: 4px;
     height: 35px;
 }
@@ -50,6 +50,7 @@ footer {
     text-align: center;
 }
 form h1 {
+    margin: 28px 0 16px 0;
     font-size: 24px;
     color: #4C4C4C;
     font-weight: 400;
@@ -72,22 +73,27 @@ form button {
 }
 form input {
     width: 320px;
-    height: 32px;
+    height: 28px;
     font-size: 1.2em;
+    border: 1px solid #C1C5C8;
+    border-radius: 3px;
 }
 form p {
     font-size: 12px;
     font-style: italic;
     color: #757575;
+    margin: 4px 0 0 0;
 }
 form button {
     height: 44px;
-    width: 320px;
+    width: 330px;
+    margin: 0 0 44px 0;
 }
 .apply {
     font-size: 10px;
     color: #444444;
     font-style: normal;
+    margin: 12px 0;
 }
 footer p {
     color: #505050;
@@ -122,4 +128,27 @@ footer a:link {
 }
 footer {
     padding: 20px 0;
+}
+form aside {
+    font-size: 10px;
+    color: #8d9096;
+    margin: 4px 0 0 0;
+}
+.form-bottom {
+    background-color: #ECEEF1;
+    padding: 16px;
+    margin: 32px 0 0 0;
+    height: 21px;
+}
+.left {
+    text-align: start;
+    margin: 0 0 6px 26px;
+}
+form span {
+    margin: 0 0 0 -30px;
+    opacity: .2;
+}
+header img {
+    display: flex;
+    margin: 40px auto 10px auto;
 }

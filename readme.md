@@ -1,0 +1,2 @@
+This was completed for Project: HTML FORMS for the Odin Project linked here: https://www.theodinproject.com/lessons/html-forms. It is a clone of the sign up page linked here:
+https://accounts.intuit.com/signup.html. Completed: 06/09/2020
